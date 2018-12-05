@@ -1,0 +1,418 @@
+body{
+	font-family: 'Nunito+Sans', sans-serif;
+}
+
+header{
+	height:500px ;
+	background:url("img/bgheader.jpg") ;
+	/*background-repeat: no-repeat;eli */
+	background-size: cover;
+	overflow: hidden;
+}
+ul{
+	width: 100%;
+    height: 40px;
+    display: block;
+    padding-top: 23px;
+}
+ul li{
+	display:flex;		
+	justify-content: flex-end;
+	float: left;
+}
+li a {
+	color: #cbccd3!important;
+	font-size: 11px;
+	display: block;
+	border-top: 5px solid transparent;
+	padding-right: 10px;
+}
+
+.container-fluid{
+	width: 100%;	
+	overflow: hidden;
+	padding-left: 3rem;
+}
+.img1{
+	height: 20px;
+	width: 175px;
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+.textoH1{
+	font-size: 48px;
+	color:white ;
+	text-align: center;
+	box-sizing: border-box;
+}
+.textoH3{
+	font-size: 12px;
+	color:white ;
+	text-align: center;
+	box-sizing: border-box;
+}
+#centrado{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+#centrado a{
+	background:#e84545;
+	color:#fff;
+	text-align: center!important;
+	display: block;
+	width: 200px;
+	height: 48px;
+	padding: 17px 0;
+	font-weight: normal;
+	font-size: 11px;
+	transition: 0.3s ease all;
+}
+#centrado a:hover {
+	text-decoration: none;
+	background: blue;
+	transform: scale(1.05);
+}
+
+.margenIni2{
+	padding-top: 15px;
+	padding-bottom: 40px;
+}
+.seccion4{
+	background: white;
+	height:700px ;
+}
+.textpersona{
+	font-size: 15px;
+	color:#2d3033 ;
+	text-align: left;
+	padding-top: 30px;
+}
+.textcargo{
+	font-size: 11px;
+	color:#e84545 ;
+	text-align: left;
+}
+.textp{
+	font-size: 10px;
+	color:#80858b ;
+	text-align: left;
+	padding-top: 15px;
+}
+.iconosCont2{
+	display: flex!important;
+	align-items: center;
+	justify-content: left;
+	padding-top: 30px;
+}
+.personabloque{
+	display: block;
+	justify-content: center;
+	padding-top: 120px;
+	padding-right: 90px;
+
+}
+.imgSec4{
+	width:200px ;
+	height:200px ;
+
+}
+
+.formIcoSec5{
+	color: #c6cacc!important;
+	align-content: center!important;
+	border:1px solid #e8ecee!important;
+	height: 30px!important;
+	width: 30px!important;
+	padding: 7px;
+	font-size:15px!important; 
+}
+.formIcoSec5:hover {
+	background:#a3a4b2;
+	transform: scale(1.05);
+}
+.face{
+	padding-left: 10px;
+}
+.seccion5{
+	background:#53354a;
+	height: 370px;
+	padding: 0px;
+	
+}
+
+.imgSecc5{
+	/*max-width: 100%;
+	display: flex;
+	margin-left: 0px;*/
+	background:url("img/imgSecc5.jpg");
+	background-repeat: no-repeat;
+
+
+	
+}
+.integer{
+	color: white;
+	padding:5%;
+	overflow: hidden;
+}
+
+.textH3secc5{
+	font-size: 25px;
+	height:20px ;
+	padding-top: 2px;
+}
+.textPsecc5{
+	height:11px ;
+	text-align: 10px;
+}
+
+.seccion6{
+	width:100% ;
+	height: 340px;
+	background:white ;
+}
+.txtH2{
+	text-align: center;
+	font-size:28px ;
+	color:#2d3033 ;
+	padding-top: 90px;
+	padding-bottom: 10px;
+}
+.txtH3{
+	text-align: center;
+	font-size:11px ;
+	color:#2d3033 ;
+	padding-bottom: 30px;
+}
+.botonSec6{
+	height:46px!important ;
+	width:280px!important ;
+}
+.txtH4a{
+	text-align: center;
+	font-size:12px ;
+	color:#7c7c7d ;
+}
+.txtH4b{
+	text-align: center;
+	font-size:12px ;
+	color:white ;
+}
+footer{
+	padding-top: 20px;
+	height:94px ;
+	background: #313454;
+}
+.corazon{
+	color: red;
+}
+.seccion7{
+	height:251px;
+	background: #3a3e64;
+}
+.txtP{
+	text-align: center;
+	font-size:13px ;
+	color:#adaebb ;
+}
+.txtH3a{
+	text-align: center;
+	font-size:15px ;
+	color:white ;
+}
+.agrupado{
+	display: flex;
+	justify-content: center;
+	padding-top: 70px;
+	padding-bottom: 95px;
+}
+.iconosCont{
+	display: flex;
+	direction: row;
+	align-items: center;
+	justify-content: center;
+}
+.iconos{
+	color: white;
+	align-content: center!important;
+	border:2px solid white;
+	height: 40px;
+	width: 40px;
+	margin-right: 7px;
+	padding-top:10px ;
+	padding-left:10px ;
+	font-size:16px; 
+}
+.iconos1{
+	color: white;
+	align-content: center!important;
+	border:2px solid white;
+	height: 40px;
+	width: 40px;
+	margin-right: 7px;
+	padding-top:10px ;
+	padding-left:13px ;
+	font-size:16px; 
+}
+.iconos:hover {
+	background:#a3a4b2;
+	transform: scale(1.05);
+}
+.iconos1:hover {
+	background:#a3a4b2;
+	transform: scale(1.05);
+}
+
+
+
+.slick-prev:before,.slick-next:before{
+	color: #444;
+}
+/*Termina parte 1, 6, 7 y 8/*
+
+/*inicio seccion 2*/
+.seccion-2{
+	padding: 15px auto;
+    margin-left: 150px;
+    margin-right: 160px;
+    margin: 120px auto;
+    /*padding-left: 160px;
+    padding-right: 160px;*/
+
+}
+.hover:hover{
+	transform: scale(1.05)
+}
+
+.seccion-2 img{
+	align-items: center;
+
+}
+.seccion-2 h4{
+	font-weight: bold;
+	text-align: center;
+	font-size: 16px;
+	color: #2d3033;
+}
+.seccion-2 p{
+	font-weight: normal;
+	text-align:center;
+	font-size: 12px;
+	color: #6c7279;
+	margin: 15px;
+}
+.centrado img{
+	align-items: center;
+
+}
+#img-seccion2 {
+	/*position: center;
+     left: 10px; */
+    /* top: 12px; */
+    width: 50px;
+    height: 55px;
+    margin: 15px;
+    /*margin-left: 140px;
+     max-width: 620px; 
+	align-items: center;*/
+	justify-content: center;
+	display: block;
+}
+
+
+/*inicio seccion 3*/
+.seccion3{
+	margin: none;
+	padding: none;
+	padding-left: none;
+	width: 100%;
+}
+.img-thumb{  
+     /*margin-right: -2px;*/
+}
+.img-thumb img{
+    width: 360px;
+    height: 251px;
+
+}
+
+/*cpa hover*/
+.descripcion{
+	width: 360px;
+	height: 251px;
+	position: absolute;
+	z-index: 2;
+	background-color: #da4746;
+	opacity: 0.9;
+	display: none;
+
+}
+.descripcion figcaption, .descripcion2 figcaption {
+  color: white;
+   height: 100%;
+  left: 0;
+  line-height: 250px;
+  position: absolute;
+  text-align: center;
+  text-transform: uppercase;
+  top: 0;
+  font-weight: normal;
+  font-size: 12px;
+  transition: all .23s ease;
+  width: 100%;
+}
+.descripcion2 figcaption{
+	color: white;
+	margin: 15px auto;
+	font-size: 10px;
+}
+.slick-prev:before,.slick-next:before{
+	color: #53354a;
+}
+
+.slick-dots
+{
+    width: 100%;
+    padding-top: 50px;
+    padding-left: 220px;
+}
+
+.slick-dots li button:before
+{
+    font-size: 12px;
+    color: #755d6e;
+}
+.slick-dots li.slick-active button:before
+{
+    opacity: .75;
+    color: white;
+}
+.slick-dots li
+{
+    margin: 0px;
+}
+@media screen and (min-width: 300px) and (max-width: 600px){
+	.textoH1{
+	font-size:80%;
+	text-align: center;
+	box-sizing: border-box;
+	padding-top: 90px;
+	}
+	
+}
+@media screen and (min-width: 601px) and (max-width: 1025px){
+	
+	.integer{
+		width: 100%;
+		height:100%;
+		text-align:center;
+	}
+
+}
+
